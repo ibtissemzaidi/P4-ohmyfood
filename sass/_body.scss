@@ -1,0 +1,106 @@
+  
+body {
+    display: flex;
+    justify-content: center;
+    }
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.localisation-restaurants {
+    @include flex;
+    gap: 17px;
+    height: 50px;
+    background: $Grey-2;
+
+    h1 {
+        font-size: 24px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    span {
+        font-size: 18px;
+        font-weight: 300;
+        text-align: center;
+        color: $black
+    }
+
+    }
+    .btn {
+        background: linear-gradient(180deg, $color-secondaire 0%, $color-primaire 100%);
+        border: transparent;
+        position: relative;
+        width: 218px;
+        height: 50px;
+        border-radius: 25px;
+        margin: 57px;
+        color: $white;
+        box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+        font-size: 16px;
+        font-weight: 500;
+    
+        &:hover {
+            background-color: lighten (#FF79DA, 20%);
+            box-shadow: 0px 4px 15px 0px darken(rgba(0, 0, 0, 0.35), 15%);
+            filter: brightness(1.2);
+            transform: scaleZ(0.5);
+    
+        }
+    
+    }
+
+    .fonctionnement {
+        padding: 20px;
+    
+        h2 {
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            padding-bottom: 26px;
+        }
+    
+        ul {
+            display: flex;
+            flex-direction: column;
+    
+            @media (min-width: 1025px) {
+                flex-direction: row;
+                gap: 25px;
+            }
+    
+    
+        }
+    
+        .step {
+            display: flex;
+            gap: 27px;
+            justify-content: start;
+            align-items: center;
+            height: 72px;
+            width: 100%;
+            margin-bottom: 25px;
+            border-radius: 20px;
+            background: $grey-light;
+            box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+            margin-right: 20px;
+    
+    
+            &_number {
+                width: 24px;
+                height: 24px;
+                color: $white;
+                background: $color-primaire;
+                border-radius: 50%;
+                font-weight: 500;
+                text-align: center;
+                margin-left: -12px;
+    
+            }
+}    }

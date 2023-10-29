@@ -1,5 +1,121 @@
 * {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  color: #000;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+/*background*/
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 89px 13px 89px;
+  background: #FFF;
+}
+header .logo {
+  width: 197px;
+  height: 36px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.localisation-restaurants {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+  height: 50px;
+  background: #EAEAEA;
+}
+.localisation-restaurants h1 {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+.localisation-restaurants span {
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  color: #353535;
+}
+
+.btn {
+  background: linear-gradient(180deg, #FF79DA 0%, #9356DC 100%);
+  border: transparent;
+  position: relative;
+  width: 218px;
+  height: 50px;
+  border-radius: 25px;
+  margin: 57px;
+  color: #FFF;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  font-size: 16px;
+  font-weight: 500;
+}
+.btn:hover {
+  background-color: lighten #FF79DA, 20%;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.35);
+  filter: brightness(1.2);
+  transform: scaleZ(0.5);
+}
+
+.fonctionnement {
+  padding: 20px;
+}
+.fonctionnement h2 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 26px;
+}
+.fonctionnement ul {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 1025px) {
+  .fonctionnement ul {
+    flex-direction: row;
+    gap: 25px;
+  }
+}
+.fonctionnement .step {
+  display: flex;
+  gap: 27px;
+  justify-content: start;
+  align-items: center;
+  height: 72px;
+  width: 100%;
+  margin-bottom: 25px;
+  border-radius: 20px;
+  background: #F6F6F6;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+  margin-right: 20px;
+}
+.fonctionnement .step_number {
+  width: 24px;
+  height: 24px;
+  color: #FFF;
+  background: #9356DC;
+  border-radius: 50%;
+  font-weight: 500;
+  text-align: center;
+  margin-left: -12px;
 }/*# sourceMappingURL=styles.css.map */

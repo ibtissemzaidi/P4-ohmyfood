@@ -1,0 +1,11 @@
+header {
+    @include flex;
+    padding: 14px 89px 13px 89px;
+    background: $white;
+
+    .logo {
+        width: 197px;
+        height: 36px;
+    }
+
+}
