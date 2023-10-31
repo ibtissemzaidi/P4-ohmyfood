@@ -1,0 +1,49 @@
+.footer {
+    display: block;
+    background: $black;
+    padding: 22px 25px;
+   
+    &_title {
+        font-family: Shrikhand;
+        font-weight: 400;
+        color: $white;
+        margin-bottom: 16px;
+        }
+
+        &_link {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            gap: 7px;
+            padding-left: 0;
+            }
+
+            
+    li {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        gap: 11px;
+
+        i {
+            color: $white;
+        }
+
+        span,
+        p,
+        a {
+            color: $white;
+            font-size: 16px;
+            font-weight: 400;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+
+        }
+
+        address {
+            font-style: normal;
+        }
+    }
+
+    }
