@@ -245,6 +245,7 @@ body {
 }
 .footer_title {
   font-family: Shrikhand;
+  font-size: 18px;
   font-weight: 400;
   color: #FFF;
   margin-bottom: 16px;
@@ -277,4 +278,25 @@ body {
 }
 .footer li address {
   font-style: normal;
+}
+
+.header_menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 89px 13px 17px;
+  background: #FFF;
+  gap: 88px;
+}
+.header_menu .logo_menu {
+  width: 197px;
+  height: 36px;
+  padding: 0px 19px 0px 16px;
+}
+.header_menu a {
+  font-size: 27px;
+  position: absolute;
+  left: 25px;
 }/*# sourceMappingURL=styles.css.map */
