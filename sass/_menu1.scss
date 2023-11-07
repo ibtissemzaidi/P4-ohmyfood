@@ -1,0 +1,37 @@
+.header_menu {
+
+    @include flex;
+    justify-content: center;
+    padding: 14px 89px 13px 17px;
+    background: $white;
+    gap: 60px;
+
+    .logo_menu {
+        width: 197px;
+        height: 36px;
+        padding: 0px 19px 0px 16px;
+    }
+
+    a {
+        font-size: 27px;
+        position: relative;
+        left: 40px;
+    }
+}
+
+.menu {
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+    overflow: hidden;
+
+    &_img {
+        width: 100%;
+        height: 275px;
+        object-fit: cover;
+        height: auto;
+        }
+        }
