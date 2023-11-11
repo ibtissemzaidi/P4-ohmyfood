@@ -324,12 +324,24 @@ body {
   color: #FFF;
   margin-bottom: 16px;
 }
+@media (min-width: 1025px) {
+  .footer_title {
+    padding: 25px;
+  }
+}
 .footer_link {
   display: flex;
   flex-direction: column;
   justify-content: start;
   gap: 7px;
   padding-left: 0;
+}
+@media (min-width: 1025px) {
+  .footer_link {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 25px;
+  }
 }
 .footer li {
   display: flex;
@@ -352,6 +364,16 @@ body {
 }
 .footer li address {
   font-style: normal;
+}
+@media (min-width: 1025px) {
+  .footer li {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 114px;
+    gap: 16px;
+    padding: 30px 25px;
+    width: 100%;
+  }
 }
 
 .header_menu {

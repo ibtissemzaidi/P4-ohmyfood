@@ -131,6 +131,12 @@
             animation: apparition 1.5s 1s forwards;
             cursor: pointer;
 
+            
+            @for $i from 1 through $num-plates {
+                &.no#{$i} {
+                  animation-delay: $anim-delay * $i;
+                }
+            }
 
            
 
