@@ -488,7 +488,7 @@ body {
   gap: 5px;
   height: 69px;
   border-radius: 15px 15px;
-  box-shadow: 0px 4.01149px 15.0431px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
   margin-right: 14px;
   opacity: 1;
   animation: apparition 1.5s 1s forwards;
@@ -537,6 +537,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: transform 0.4s ease-in-out, width 0.4s ease-in-out, opacity 0.4s ease-in-out;
 }
 .menu .menu_list_item_checked i {
   color: #FFF;
