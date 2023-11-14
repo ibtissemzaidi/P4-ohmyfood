@@ -302,10 +302,6 @@ body {
   opacity: 0;
   font-weight: 700;
   background: linear-gradient(180deg, #FF79DA, #9356DC);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-  transition: opacity 0.5s ease-in-out;
 }
 .like_btnf:hover {
   cursor: pointer;
