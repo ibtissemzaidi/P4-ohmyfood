@@ -118,6 +118,36 @@
             }
 
         }
+        .entree{
+            
+                animation: menuprogressive 2s ease-in 0.5s forwards;
+                opacity: 0;
+            
+        }
+        .plat{
+            
+            animation: menuprogressive 2s ease-in 1s forwards;
+            opacity: 0;
+        
+    }
+    .dessert{
+            
+        animation: menuprogressive 2s ease-in 1.5s forwards;
+        opacity: 0;
+    
+}
+        
+    @keyframes menuprogressive {
+        0% {
+            opacity: 0;
+        }
+
+      
+
+        100% {
+            opacity: 1;
+        }
+        }
 
         &_item {
             display: flex;
@@ -130,18 +160,8 @@
             opacity: 1;
             animation: apparition 1.5s 1s forwards;
             cursor: pointer;
-            animation: appear 1s forwards;
+            
 
-            @keyframes appear {
-from{
-    opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-    
-   
-}
 
       
             &_info {

@@ -316,6 +316,10 @@ body {
     opacity: 0;
     font-weight: 700;
     background: linear-gradient(180deg, $color-secondaire , $color-primaire );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    transition: opacity 1s ease-in-out;
    
 
     &:hover {
