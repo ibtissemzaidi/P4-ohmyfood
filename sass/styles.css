@@ -314,6 +314,13 @@ body {
   background: #353535;
   padding: 22px 25px;
 }
+@media (min-width: 1025px) {
+  .footer {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: right;
+  }
+}
 .footer_title {
   font-family: Shrikhand, cursive;
   font-size: 20px;
@@ -338,6 +345,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     padding: 30px 25px;
+    gap: 30px;
   }
 }
 .footer li {
@@ -365,11 +373,7 @@ body {
 @media (min-width: 1025px) {
   .footer li {
     display: flex;
-    flex-direction: row-reverse;
     height: 114px;
-    gap: 16px;
-    padding: 30px 25px;
-    width: 100%;
   }
 }
 
