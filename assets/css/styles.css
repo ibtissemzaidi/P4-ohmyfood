@@ -566,7 +566,7 @@ body {
 .menu .menu_list_item:hover .menu_list_item_selection {
   cursor: pointer;
   opacity: 1;
-  width: 60px;
+  width: 59px;
 }
 
 .commande {
